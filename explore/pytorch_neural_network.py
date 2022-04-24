@@ -109,8 +109,8 @@ def check_accuracy(loader, model):
             scores = model(x)
             # 64 x 10 -> maximum of 10 digits 구하기 
             _, predictions = scores.max(1)  # second dimensions scores are what we want 
-            num_correct += (predictions == y).sum()
-            num_samples += predictions.size(0)
+            num_correct += (predictions == y).sum() # predict which is equally to labels 
+            num_samples += predictions.size(0)  # batch = 64
         
         print(f'Got {num_correct} / {num_samples} with accuracy {float(num_correct) / float(num_samples) * 100:.2f}')
 
