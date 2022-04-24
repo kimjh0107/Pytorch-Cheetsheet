@@ -3,4 +3,8 @@
 
 --------------------------------------------------------------------------
 # Contents
-  - Complete Pytorch Tensor Tutorial 
+  ### 1. Complete Pytorch Tensor Tutorial 
+  - Initializing Tensor 
+  - Tensor Math & Comparison Operations 
+  - Tensor Indexing 
+  - Tensor Reshaping 
