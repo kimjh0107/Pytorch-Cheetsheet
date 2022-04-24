@@ -8,3 +8,5 @@
   - Tensor Math & Comparison Operations 
   - Tensor Indexing 
   - Tensor Reshaping 
+
+  ### 2. Neural Network example
