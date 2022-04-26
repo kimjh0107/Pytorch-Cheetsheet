@@ -12,3 +12,6 @@
   ### 2. Neural Network example
   ### 3. CNN example 
   ### 4. Save and load models 
+  # Up to go 
+  ### 5. Pytorch data augmentation using Torchvision
+  ### 6. How to deal with imbalanced datasets 
