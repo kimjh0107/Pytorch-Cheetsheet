@@ -13,6 +13,6 @@
   ### 3. CNN example 
   ### 4. Save and load models 
   ### 5. Pytorch data augmentation using Torchvision
-
+  ### 6. Pytorch data augmentation using Albumentation
   # Up to go 
-  ### 6. How to deal with imbalanced datasets 
+  ### 7. How to deal with imbalanced datasets 
