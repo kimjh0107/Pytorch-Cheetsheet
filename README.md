@@ -14,5 +14,6 @@
   ### 4. Save and load models 
   ### 5. Pytorch data augmentation using Torchvision
   ### 6. Pytorch data augmentation using Albumentation
+  ### 7. Pytorch ROC 
   # Up to go 
   ### 7. How to deal with imbalanced datasets 
