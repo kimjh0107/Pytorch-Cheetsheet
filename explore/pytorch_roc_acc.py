@@ -1,6 +1,7 @@
 import torch
 from sklearn.metrics import roc_auc_score
 
+
 def calculate_roc(loader, model, device):
     num_correct = 0
     num_samples = 0
@@ -18,5 +19,4 @@ def calculate_roc(loader, model, device):
             num_samples += predictions.size(0)  
 
     model.train()
-    #return num_correct/num_samples
     return roc_auc_score(y.cpu().numpy(), predictions.cpu().numpy())
