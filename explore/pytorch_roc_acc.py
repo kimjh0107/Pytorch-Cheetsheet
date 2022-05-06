@@ -1,6 +1,8 @@
+# %%
 import torch
 from sklearn.metrics import roc_auc_score
 
+# %%
 def calculate_roc(loader, model, device):
     num_correct = 0
     num_samples = 0
