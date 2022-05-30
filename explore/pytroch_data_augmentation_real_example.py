@@ -36,7 +36,6 @@ class CustomDataset(Dataset):
 train_transform = transforms.Compose([
     #transforms.ToPILImage(),
     transforms.ToTensor(),
-    transforms.Resize((128,128,64)),
     transforms.RandomRotation(20),
     transforms.RandomHorizontalFlip(),
    # transforms.RandomPerspective(distortion_scale=.15,p=.15,interpolation=transforms.InterpolationMode.NEAREST),
@@ -45,7 +44,6 @@ train_transform = transforms.Compose([
 test_transform = transforms.Compose([
                    # transforms.ToPILImage(),
                     transforms.ToTensor(),
-                    transforms.Resize((128,128,64))
                     ])
 
 
