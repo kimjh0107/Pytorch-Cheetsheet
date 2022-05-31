@@ -11,7 +11,9 @@
   ### 6. Pytorch data augmentation using Albumentation
   ### 7. Pytorch ROC 
   ### 8. Pytorch K-fold-cross-validation
+  ### 9. Augmentation real example
+  
+  ### 10. Mixed Precision Training
 
   
   # Up to go 
-  ### 7. How to deal with imbalanced datasets 
