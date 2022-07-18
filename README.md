@@ -12,8 +12,8 @@
   ### 7. Pytorch ROC 
   ### 8. Pytorch K-fold-cross-validation
   ### 9. Augmentation real example
-  
   ### 10. Mixed Precision Training
   ### 11. GradCam 
+  ### 12. Transfer Learning and Fine Tuning 
   
   # Up to go 
